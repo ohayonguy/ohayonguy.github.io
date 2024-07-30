@@ -39,13 +39,13 @@ Fairness in image restoration tasks is the desire to treat different sub-groups 
 
 ```BibTeX
 @article{ohayon2024perceptualfairnessimagerestoration,
-      title={Perceptual Fairness in Image Restoration}, 
-      author={Guy Ohayon and Michael Elad and Tomer Michaeli},
-      year={2024},
-      eprint={2405.13805},
-      journal={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2405.13805}, 
+         title={Perceptual Fairness in Image Restoration}, 
+         author={Guy Ohayon and Michael Elad and Tomer Michaeli},
+         year={2024},
+         eprint={2405.13805},
+         journal={arXiv},
+         primaryClass={eess.IV},
+         url={https://arxiv.org/abs/2405.13805}, 
 }
 ```
 
