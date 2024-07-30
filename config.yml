@@ -1,5 +1,5 @@
-baseURL: "https://rosavandenende.github.io/" 
-title: Rosa van den Ende 
+baseURL: "https://ohayonguy.github.io" 
+title: Guy Ohayon
 paginate: 20
 theme: PaperMod
 
@@ -11,25 +11,28 @@ taxonomies:
 
 menu:
     main:
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
         - name: Publications
           url: papers/
           weight: 1
-        - name: Talks
-          url: talks/
+        - name: CV
+          url: cv_guy.pdf
           weight: 2
-        - name: Resume
-          url: cv_rosa.pdf
-          weight: 3 
-        # - name: Photography
-        #   url: https://pmichaillat.substack.com
-        #   weight: 4
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
 
 params:
-    description: "I am a PhD Candidate in Mathematical and Environmental Economics."
-    author: Name
+    description: "I am a PhD candidate in Computer Science at the Technion - Israel Institute of Technology. My research focuses on the fundamental trade-offs and limitations that govern inverse problems in imaging, as well as developing novel techniques to address them."
+    author: Guy Ohayon
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: auto
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
@@ -39,7 +42,8 @@ params:
     ShowPostNavLinks: false
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: false
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -49,57 +53,61 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Rosa van den Ende
-          subtitle: "I am a PhD candidate in Mathematical and Environmental Economics at the Centre d'Économie de la Sorbonne (CES), Université Paris I Panthéon-Sorbonne and the Institute of Mathematical Economics, Universität Bielefeld, 
-          under the supervision of Agnieszka Rusinowska and Manuel Förster. I apply game theory and network theory to construct models that can shape effective climate policy. 
-          I am mostly interested in environmental allocation questions and in how to capture the concept of distributive climate justice in mathematics."
-          imageUrl: "picture.jpg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Rosa van den Ende
+          title: Guy Ohayon
+          subtitle: "I am a PhD candidate in Computer Science at the Technion - Israel Institute of Technology. My research focuses on the fundamental trade-offs and limitations that govern inverse problems in imaging, as well as developing novel techniques to address them."
+          imageUrl: "profile.jpeg"
+          imageWidth: 256
+          imageHeight: 256
+          imageTitle: Guy Ohayon
           buttons:
             - name: Publications
               url: papers/
+            - name: CV
+              url: cv_guy.pdf
             # - name: Courses
             #   url: courses/
             # - name: Data
             #   url: data/
-           # - name: Newsletter
-           #   url: https://pmichaillat.substack.com
+            # - name: Books
+            #   url: books/
             # - name: Tags
             #   url: tags/
-            - name: Talks
-              url: talks/
-            - name: Resume
-              url: cv_rosa.pdf
-            #- name: Archive
-            #  url: archive/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
     socialIcons:
         # - name: CV
-        #   url: cv_rosa.pdf
+        #   url: cv.pdf
         - name: Email
-          url: mailto:rosa.van-den-ende@univ-paris1.fr
-        - name: Location
-          url: location/
-    
+          url: mailto:ohayonguy@cs.technion.ac.il
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=jwrYE5sAAAAJ&hl=fr
+          url: https://scholar.google.com/citations?user=Gso71ogAAAAJ&hl=en
+        - name: GitHub
+          url: https://github.com/ohayonguy
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@alexandermccallsmithoffici9000
+        - name: Twitter
+          url: https://x.com/guy__ohayon
         - name: LinkedIn
-          url: https://linkedin.com/in/rosavandenende
-        # - name: GitHub
-        #   url: https://github.com/pmichaillat
-        - name: ORCID
-          url: https://orcid.org/0000-0002-9417-1075
-      
+          url: "https://www.linkedin.com/in/ohayonguy/"
 
     assets:
-        disableHLJS: true
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Rosa van den Ende"
+      text: "Guy Ohayon"
       icon: favicon.ico
       iconHeight: 18
 
