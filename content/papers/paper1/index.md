@@ -23,7 +23,7 @@ Fairness in image restoration tasks is the desire to treat different sub-groups 
 
 ##### Download
 
-+ [You can find the paper here.](https://arxiv.org/pdf/2405.13805)
++ [You can find the paper here. (preprint)](https://arxiv.org/pdf/2405.13805)
 <!-- + [Online appendix](appendix2.pdf)
 + [Code and data](https://github.com/pmichaillat/unemployment-gap) -->
 
@@ -34,25 +34,25 @@ Fairness in image restoration tasks is the desire to treat different sub-groups 
 ![](paper1.png)
 
 ---
-<!-- 
+
 ##### Citation
 
-Author 1 and Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+Guy Ohayon, Michael Elad, Tomer Michaeli. 2024. "Perceptual Fairness in Image Restoration."
 
 ```BibTeX
-@article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title ={Title},
-volume = {Volume},
-year = {Year}}
+@article{ohayon2024perceptualfairnessimagerestoration,
+      title={Perceptual Fairness in Image Restoration}, 
+      author={Guy Ohayon and Michael Elad and Tomer Michaeli},
+      year={2024},
+      eprint={2405.13805},
+      journal={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2405.13805}, 
+}
 ```
 
 ---
-
+<!--
 ##### Related material
 
 + [Presentation slides](presentation2.pdf)
