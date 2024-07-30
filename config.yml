@@ -1,0 +1,116 @@
+baseURL: "https://rosavandenende.github.io/" 
+title: Rosa van den Ende 
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Publications
+          url: papers/
+          weight: 1
+        - name: Talks
+          url: talks/
+          weight: 2
+        - name: Resume
+          url: cv_rosa.pdf
+          weight: 3 
+        # - name: Photography
+        #   url: https://pmichaillat.substack.com
+        #   weight: 4
+
+params:
+    description: "I am a PhD Candidate in Mathematical and Environmental Economics."
+    author: Name
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Rosa van den Ende
+          subtitle: "I am a PhD candidate in Mathematical and Environmental Economics at the Centre d'Économie de la Sorbonne (CES), Université Paris I Panthéon-Sorbonne and the Institute of Mathematical Economics, Universität Bielefeld, 
+          under the supervision of Agnieszka Rusinowska and Manuel Förster. I apply game theory and network theory to construct models that can shape effective climate policy. 
+          I am mostly interested in environmental allocation questions and in how to capture the concept of distributive climate justice in mathematics."
+          imageUrl: "picture.jpg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Rosa van den Ende
+          buttons:
+            - name: Publications
+              url: papers/
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            #   url: data/
+           # - name: Newsletter
+           #   url: https://pmichaillat.substack.com
+            # - name: Tags
+            #   url: tags/
+            - name: Talks
+              url: talks/
+            - name: Resume
+              url: cv_rosa.pdf
+            #- name: Archive
+            #  url: archive/
+    socialIcons:
+        # - name: CV
+        #   url: cv_rosa.pdf
+        - name: Email
+          url: mailto:rosa.van-den-ende@univ-paris1.fr
+        - name: Location
+          url: location/
+    
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=jwrYE5sAAAAJ&hl=fr
+        - name: LinkedIn
+          url: https://linkedin.com/in/rosavandenende
+        # - name: GitHub
+        #   url: https://github.com/pmichaillat
+        - name: ORCID
+          url: https://orcid.org/0000-0002-9417-1075
+      
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Rosa van den Ende"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
