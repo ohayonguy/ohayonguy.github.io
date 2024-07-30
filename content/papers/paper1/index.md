@@ -37,8 +37,6 @@ Fairness in image restoration tasks is the desire to treat different sub-groups 
 
 ##### Citation
 
-Guy Ohayon, Michael Elad, Tomer Michaeli. 2024. "Perceptual Fairness in Image Restoration."
-
 ```BibTeX
 @article{ohayon2024perceptualfairnessimagerestoration,
       title={Perceptual Fairness in Image Restoration}, 
