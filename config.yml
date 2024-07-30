@@ -99,7 +99,9 @@ params:
         - name: Twitter
           url: https://x.com/guy__ohayon
         - name: LinkedIn
-          url: "https://www.linkedin.com/in/ohayonguy/"
+          url: https://www.linkedin.com/in/ohayonguy/
+        - name: ORCID
+          url: https://orcid.org/0009-0008-5112-6558
 
     assets:
         disableScrollBarStyle: true
