@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ohayonguy.github.io/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/</loc>
+    <loc>https://ohayonguy.github.io/papers/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper7/</loc>
+    <loc>https://ohayonguy.github.io/papers/paper7/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper6/</loc>
+    <loc>https://ohayonguy.github.io/papers/paper6/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper5/</loc>
+    <loc>https://ohayonguy.github.io/papers/paper5/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper3/</loc>
+    <loc>https://ohayonguy.github.io/papers/paper3/</loc>
     <lastmod>2023-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper2/</loc>
+    <loc>https://ohayonguy.github.io/papers/paper2/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper4/</loc>
+    <loc>https://ohayonguy.github.io/papers/paper4/</loc>
     <lastmod>2022-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper1/</loc>
+    <loc>https://ohayonguy.github.io/papers/paper1/</loc>
     <lastmod>2021-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ohayonguy.github.io/tags/</loc>
   </url>
 </urlset>

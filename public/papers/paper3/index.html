@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Deep Optimal Transport: A Practical Algorithm for Photo-realistic Image Restoration (NeurIPS 2023) | Guy Ohayon</title>
 <meta name="keywords" content="">
 <meta name="description" content="We propose an image restoration algorithm that can control the perceptual quality and/or the mean square error (MSE) of any pre-trained model, trading one over the other at test time.">
 <meta name="author" content="Theo Adrai,&thinsp;Guy Ohayon,&thinsp;Tomer Michaeli,&thinsp;Michael Elad">
-<link rel="canonical" href="http://localhost:1313/papers/paper3/">
+<link rel="canonical" href="https://ohayonguy.github.io/papers/paper3/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="https://ohayonguy.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ohayonguy.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ohayonguy.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://ohayonguy.github.io/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/papers/paper3/">
+<link rel="alternate" hreflang="en" href="https://ohayonguy.github.io/papers/paper3/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +29,13 @@
 </noscript><meta property="og:title" content="Deep Optimal Transport: A Practical Algorithm for Photo-realistic Image Restoration (NeurIPS 2023)" />
 <meta property="og:description" content="We propose an image restoration algorithm that can control the perceptual quality and/or the mean square error (MSE) of any pre-trained model, trading one over the other at test time." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/papers/paper3/" />
-<meta property="og:image" content="http://localhost:1313/teaser-dot.png" /><meta property="article:section" content="papers" />
+<meta property="og:url" content="https://ohayonguy.github.io/papers/paper3/" />
+<meta property="og:image" content="https://ohayonguy.github.io/teaser-dot.png" /><meta property="article:section" content="papers" />
 <meta property="article:published_time" content="2023-06-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-06-04T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/teaser-dot.png" />
+<meta name="twitter:image" content="https://ohayonguy.github.io/teaser-dot.png" />
 <meta name="twitter:title" content="Deep Optimal Transport: A Practical Algorithm for Photo-realistic Image Restoration (NeurIPS 2023)"/>
 <meta name="twitter:description" content="We propose an image restoration algorithm that can control the perceptual quality and/or the mean square error (MSE) of any pre-trained model, trading one over the other at test time."/>
 
@@ -49,13 +49,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Papers",
-      "item": "http://localhost:1313/papers/"
+      "item": "https://ohayonguy.github.io/papers/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Deep Optimal Transport: A Practical Algorithm for Photo-realistic Image Restoration (NeurIPS 2023)",
-      "item": "http://localhost:1313/papers/paper3/"
+      "item": "https://ohayonguy.github.io/papers/paper3/"
     }
   ]
 }
@@ -73,7 +73,7 @@
   "articleBody": " Links Paper PDF Code Abstract We propose an image restoration algorithm that can control the perceptual quality and/or the mean square error (MSE) of any pre-trained model, trading one over the other at test time. Our algorithm is few-shot: Given about a dozen images restored by the model, it can significantly improve the perceptual quality and/or the MSE of the model for newly restored images without further training. Our approach is motivated by a recent theoretical result that links between the minimum MSE (MMSE) predictor and the predictor that minimizes the MSE under a perfect perceptual quality constraint. Specifically, it has been shown that the latter can be obtained by optimally transporting the output of the former, such that its distribution matches that of the source data. Thus, to improve the perceptual quality of a predictor that was originally trained to minimize MSE, we approximate the optimal transport by a linear transformation in the latent space of a variational auto-encoder, which we compute in closed-form using empirical means and covariances. Going beyond the theory, we find that applying the same procedure on models that were initially trained to achieve high perceptual quality, typically improves their perceptual quality even further. And by interpolating the results with the original output of the model, we can improve their MSE on the expense of perceptual quality. We illustrate our method on a variety of degradations applied to general content images with arbitrary dimensions.\nVisual results, where we enhance the perceptual quality of DDRM Citation @inproceedings{adrai2023dot, author = {Adrai, Theo and Ohayon, Guy and Elad, Michael and Michaeli, Tomer}, booktitle = {Advances in Neural Information Processing Systems}, editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine}, pages = {61777--61791}, publisher = {Curran Associates, Inc.}, title = {Deep Optimal Transport: A Practical Algorithm for Photo-realistic Image Restoration}, url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/c281c5a17ad2e55e1ac1ca825071f991-Paper-Conference.pdf}, volume = {36}, year = {2023} } ",
   "wordCount" : "321",
   "inLanguage": "en",
-  "image":"http://localhost:1313/teaser-dot.png","datePublished": "2023-06-04T00:00:00Z",
+  "image":"https://ohayonguy.github.io/teaser-dot.png","datePublished": "2023-06-04T00:00:00Z",
   "dateModified": "2023-06-04T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -90,14 +90,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/papers/paper3/"
+    "@id": "https://ohayonguy.github.io/papers/paper3/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Guy Ohayon",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://ohayonguy.github.io/favicon.ico"
     }
   }
 }
@@ -138,8 +138,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Guy Ohayon">
-                <img src="http://localhost:1313/favicon3.ico" alt="" aria-label="logo"
+            <a href="https://ohayonguy.github.io/" accesskey="h" title="Guy Ohayon">
+                <img src="https://ohayonguy.github.io/favicon3.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Guy Ohayon</a>
             <div class="logo-switches">
@@ -147,7 +147,7 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/papers/" title="Papers">
+                <a href="https://ohayonguy.github.io/papers/" title="Papers">
                     <span>Papers</span>
                 </a>
             </li>
@@ -206,7 +206,7 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/">Guy Ohayon</a></span> ·     
+    <span>&copy; 2024 <a href="https://ohayonguy.github.io/">Guy Ohayon</a></span> ·     
     <span>
     Powered by 
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
