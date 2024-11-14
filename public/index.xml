@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Guy Ohayon</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Guy Ohayon</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posterior-Mean Rectified Flow: Towards Minimum MSE Photo-Realistic Image Restoration (preprint)</title>
+      <link>http://localhost:1313/papers/paper7/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper7/</guid>
+      <description>Posterior-Mean Rectified Flow (PMRF) is a novel photo-realistic image restoration algorithm. It (provably) approximates the optimal estimator that minimizes the Mean Squared Error (MSE) under a perfect perceptual quality constraint.</description>
+    </item>
+    <item>
+      <title>Perceptual Fairness in Image Restoration (NeurIPS 2024)</title>
+      <link>http://localhost:1313/papers/paper6/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper6/</guid>
+      <description>We propose a new definition of fairness for image restoration algorithms, draw its connection to previous ones, study its theoretical properties, and demonstrate its practical utility.</description>
+    </item>
+    <item>
+      <title>The Perception-Robustness Tradeoff in Deterministic Image Restoration (ICML 2024)</title>
+      <link>http://localhost:1313/papers/paper5/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper5/</guid>
+      <description>We prove that the Lipschitz constant of a deterministic restoration algorithm grows to infinity as the algorithm approaches perfect perceptual quality and perfect consistency with the measurements.</description>
+    </item>
+    <item>
+      <title>Deep Optimal Transport: A Practical Algorithm for Photo-realistic Image Restoration (NeurIPS 2023)</title>
+      <link>http://localhost:1313/papers/paper3/</link>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper3/</guid>
+      <description>We propose an image restoration algorithm that can control the perceptual quality and/or the mean square error (MSE) of any pre-trained model, trading one over the other at test time.</description>
+    </item>
+    <item>
+      <title>High-Perceptual Quality JPEG Decoding via Posterior Sampling (CVPR 2023 Workshop)</title>
+      <link>http://localhost:1313/papers/paper2/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper2/</guid>
+      <description>We propose a novel JPEG decoding GAN-based algorithm that samples from the posterior distribution</description>
+    </item>
+    <item>
+      <title>Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023)</title>
+      <link>http://localhost:1313/papers/paper4/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper4/</guid>
+      <description>We reveal fundamental advantages of stochastic image restoration algorithms over deterministic ones.</description>
+    </item>
+    <item>
+      <title>High Perceptual Quality Image Denoising With a Posterior Sampling CGAN (ICCV 2021 Workshop)</title>
+      <link>http://localhost:1313/papers/paper1/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper1/</guid>
+      <description>We propose a novel CGAN algorithm that avoids the mode collapse issue and samples from the posterior distribution</description>
+    </item>
+  </channel>
+</rss>

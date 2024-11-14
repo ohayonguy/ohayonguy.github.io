@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023) | Guy Ohayon</title>
+<meta name="keywords" content="">
+<meta name="description" content="We reveal fundamental advantages of stochastic image restoration algorithms over deterministic ones.">
+<meta name="author" content="Guy Ohayon,&thinsp;Tomer Michaeli,&thinsp;Michael Elad">
+<link rel="canonical" href="http://localhost:1313/papers/paper4/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/papers/paper4/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023)" />
+<meta property="og:description" content="We reveal fundamental advantages of stochastic image restoration algorithms over deterministic ones." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/papers/paper4/" />
+<meta property="og:image" content="http://localhost:1313/teaser.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2022-11-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-11-16T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/teaser.png" />
+<meta name="twitter:title" content="Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023)"/>
+<meta name="twitter:description" content="We reveal fundamental advantages of stochastic image restoration algorithms over deterministic ones."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Papers",
+      "item": "http://localhost:1313/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023)",
+      "item": "http://localhost:1313/papers/paper4/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023)",
+  "name": "Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023)",
+  "description": "We reveal fundamental advantages of stochastic image restoration algorithms over deterministic ones.",
+  "keywords": [
+    ""
+  ],
+  "articleBody": " Links Paper PDF Talk Abstract Stochastic restoration algorithms allow to explore the space of solutions that correspond to the degraded input. In this paper we reveal additional fundamental advantages of stochastic methods over deterministic ones, which further motivate their use. First, we prove that any restoration algorithm that attains perfect perceptual quality and whose outputs are consistent with the input must be a posterior sampler, and is thus required to be stochastic. Second, we illustrate that while deterministic restoration algorithms may attain high perceptual quality, this can be achieved only by filling up the space of all possible source images using an extremely sensitive mapping, which makes them highly vulnerable to adversarial attacks. Indeed, we show that enforcing deterministic models to be robust to such attacks profoundly hinders their perceptual quality, while robustifying stochastic models hardly influences their perceptual quality, and improves their output variability. These findings provide a motivation to foster progress in stochastic restoration methods, paving the way to better recovery algorithms.\nThe take-home messages from our paper Citation @InProceedings{pmlr-v202-ohayon23a, title = {Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality}, author = {Ohayon, Guy and Adrai, Theo Joseph and Elad, Michael and Michaeli, Tomer}, booktitle = {Proceedings of the 40th International Conference on Machine Learning}, pages = {26474--26494}, year = {2023}, editor = {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan}, volume = {202}, series = {Proceedings of Machine Learning Research}, month = {23--29 Jul}, publisher = {PMLR}, pdf = {https://proceedings.mlr.press/v202/ohayon23a/ohayon23a.pdf}, url = {https://proceedings.mlr.press/v202/ohayon23a.html}, abstract = {Stochastic restoration algorithms allow to explore the space of solutions that correspond to the degraded input. In this paper we reveal additional fundamental advantages of stochastic methods over deterministic ones, which further motivate their use. First, we prove that any restoration algorithm that attains perfect perceptual quality and whose outputs are consistent with the input must be a posterior sampler, and is thus required to be stochastic. Second, we illustrate that while deterministic restoration algorithms may attain high perceptual quality, this can be achieved only by filling up the space of all possible source images using an extremely sensitive mapping, which makes them highly vulnerable to adversarial attacks. Indeed, we show that enforcing deterministic models to be robust to such attacks profoundly hinders their perceptual quality, while robustifying stochastic models hardly influences their perceptual quality, and improves their output variability. These findings provide a motivation to foster progress in stochastic restoration methods, paving the way to better recovery algorithms.} } ",
+  "wordCount" : "424",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/teaser.png","datePublished": "2022-11-16T00:00:00Z",
+  "dateModified": "2022-11-16T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Guy Ohayon"
+  }, {
+    "@type": "Person",
+    "name": "Tomer Michaeli"
+  }, {
+    "@type": "Person",
+    "name": "Michael Elad"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/papers/paper4/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Guy Ohayon",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Guy Ohayon">
+                <img src="http://localhost:1313/favicon3.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Guy Ohayon</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality (ICML 2023)
+    </h1>
+    <div class="post-meta"><span title='2022-11-16 00:00:00 +0000 UTC'>November 2022</span>&nbsp;&middot;&nbsp;Guy Ohayon,&thinsp;Tomer Michaeli,&thinsp;Michael Elad&nbsp;&middot;&nbsp;<a href="https://arxiv.org/abs/2410.00418" rel="noopener noreferrer" target="_blank">ICML 2023</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h5 id="links">Links</h5>
+<ul>
+<li><a href="reasons.pdf">Paper PDF</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=5WMEqkGPWq4&amp;ab_channel=TAUVOD" target="_blank">Talk</a>
+</li>
+</ul>
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>Stochastic restoration algorithms allow to explore the space of solutions that correspond to the degraded input. In this paper we reveal additional fundamental advantages of stochastic methods over deterministic ones, which further motivate their use. First, we prove that any restoration algorithm that attains perfect perceptual quality and whose outputs are consistent with the input must be a posterior sampler, and is thus required to be stochastic. Second, we illustrate that while deterministic restoration algorithms may attain high perceptual quality, this can be achieved only by filling up the space of all possible source images using an extremely sensitive mapping, which makes them highly vulnerable to adversarial attacks. Indeed, we show that enforcing deterministic models to be robust to such attacks profoundly hinders their perceptual quality, while robustifying stochastic models hardly influences their perceptual quality, and improves their output variability. These findings provide a motivation to foster progress in stochastic restoration methods, paving the way to better recovery algorithms.</p>
+<hr>
+<h5 id="the-take-home-messages-from-our-paper">The take-home messages from our paper</h5>
+<p><img loading="lazy" src="teaser.png" alt=""  />
+</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@InProceedings</span>{pmlr-v202-ohayon23a,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">title</span> = 	 <span style="color:#a50">{Reasons for the Superiority of Stochastic Estimators over Deterministic Ones: Robustness, Consistency and Perceptual Quality}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">author</span> =       <span style="color:#a50">{Ohayon, Guy and Adrai, Theo Joseph and Elad, Michael and Michaeli, Tomer}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">booktitle</span> = 	 <span style="color:#a50">{Proceedings of the 40th International Conference on Machine Learning}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">pages</span> = 	 <span style="color:#a50">{26474--26494}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">year</span> = 	 <span style="color:#a50">{2023}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">editor</span> = 	 <span style="color:#a50">{Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">volume</span> = 	 <span style="color:#a50">{202}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">series</span> = 	 <span style="color:#a50">{Proceedings of Machine Learning Research}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">month</span> = 	 <span style="color:#a50">{23--29 Jul}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">publisher</span> =    <span style="color:#a50">{PMLR}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">pdf</span> = 	 <span style="color:#a50">{https://proceedings.mlr.press/v202/ohayon23a/ohayon23a.pdf}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">url</span> = 	 <span style="color:#a50">{https://proceedings.mlr.press/v202/ohayon23a.html}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">abstract</span> = 	 <span style="color:#a50">{Stochastic restoration algorithms allow to explore the space of solutions that correspond to the degraded input. In this paper we reveal additional fundamental advantages of stochastic methods over deterministic ones, which further motivate their use. First, we prove that any restoration algorithm that attains perfect perceptual quality and whose outputs are consistent with the input must be a posterior sampler, and is thus required to be stochastic. Second, we illustrate that while deterministic restoration algorithms may attain high perceptual quality, this can be achieved only by filling up the space of all possible source images using an extremely sensitive mapping, which makes them highly vulnerable to adversarial attacks. Indeed, we show that enforcing deterministic models to be robust to such attacks profoundly hinders their perceptual quality, while robustifying stochastic models hardly influences their perceptual quality, and improves their output variability. These findings provide a motivation to foster progress in stochastic restoration methods, paving the way to better recovery algorithms.}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://localhost:1313/">Guy Ohayon</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

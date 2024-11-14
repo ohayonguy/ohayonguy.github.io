@@ -1,0 +1,129 @@
+baseURL: "https://ohayonguy.github.io/" 
+title: Guy Ohayon
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        #- name: Books
+        #  url: books/
+        #  weight: 5 
+        #- name: Home
+        #  url: /
+        #  weight: 1
+        - name: Papers
+          url: papers/
+          weight: 2
+        #- name: Courses
+        #  url: courses/
+          #weight: 3
+        #- name: Data
+          #url: data/
+          #weight: 4 
+        #- name: Blog
+        #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #  weight: 6
+
+params:
+    description: "I am a PhD candidate in Computer Science at Technion -- Israel Institute of Technology. My research revolves around the fundamental trade-offs and limitations that govern inverse problems in imaging, and developing novel techniques to address them."
+    author: Guy Ohayon
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["papers"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Guy Ohayon
+          subtitle: "I am a PhD candidate in Computer Science at Technion -- Israel Institute of Technology. My research revolves around the fundamental trade-offs and limitations that govern inverse problems in imaging, and developing novel techniques to address them."
+          imageUrl: "profile.jpeg"
+          imageWidth: 260
+          imageHeight: 260
+          imageTitle: Guy Ohayon
+          buttons:
+            - name: CV
+              url: cv_guy.pdf
+            - name: Papers
+              url: papers/
+            #- name: Courses
+            #  url: courses/
+            #- name: Data
+            #  url: data/
+            #- name: Books
+            #  url: books/
+            #- name: Tags
+            #  url: tags/
+            #- name: Archive
+            #  url: archive/
+            #- name: Blog
+            #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+    socialIcons:
+        #- name: CV
+        #  url: cv_guy.pdf
+        - name: Email
+          url: mailto:guyoep@gmail.com
+        #- name: Zoom
+        #  url: https://www.zoom.us/my/igelfeld
+        #- name: Location
+        #  url: location/
+        #- name: Office Hours
+        #  url: officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=Gso71ogAAAAJ&hl=en
+        - name: GitHub
+          url: https://github.com/ohayonguy
+        #- name: Substack
+        #  url: https://pmichaillat.substack.com
+        #- name: YouTube
+        #  url: https://www.youtube.com/@alexandermccallsmithoffici9000
+        - name: Twitter
+          url: https://x.com/guy__ohayon
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/ohayonguy/
+        - name: ORCID
+          url: https://orcid.org/0009-0008-5112-6558
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Guy Ohayon"
+      icon: favicon3.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
