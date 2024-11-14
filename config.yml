@@ -59,8 +59,8 @@ params:
           title: Guy Ohayon
           subtitle: "I am a PhD candidate in Computer Science at Technion -- Israel Institute of Technology. My research revolves around the fundamental trade-offs and limitations that govern inverse problems in imaging, and developing novel techniques to address them."
           imageUrl: "profile.jpeg"
-          imageWidth: 260
-          imageHeight: 260
+          imageWidth: 300
+          imageHeight: 300
           imageTitle: Guy Ohayon
           buttons:
             - name: CV
