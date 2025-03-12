@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Proxies for Distortion and Consistency with Applications for Real-World Image Restoration | Guy Ohayon</title>
+<meta name="keywords" content="">
+<meta name="description" content="We propose a suite of tools that can serve both the design and assessment of real-world image restoration algorithms.">
+<meta name="author" content="Sean Man,&thinsp;Guy Ohayon,&thinsp;Ron Raphaeli,&thinsp;Michael Elad">
+<link rel="canonical" href="http://localhost:1313/papers/paper8/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/papers/paper8/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Proxies for Distortion and Consistency with Applications for Real-World Image Restoration" />
+<meta property="og:description" content="We propose a suite of tools that can serve both the design and assessment of real-world image restoration algorithms." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/papers/paper8/" />
+<meta property="og:image" content="http://localhost:1313/teaser.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2025-01-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-01-21T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/teaser.png" />
+<meta name="twitter:title" content="Proxies for Distortion and Consistency with Applications for Real-World Image Restoration"/>
+<meta name="twitter:description" content="We propose a suite of tools that can serve both the design and assessment of real-world image restoration algorithms."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Papers",
+      "item": "http://localhost:1313/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Proxies for Distortion and Consistency with Applications for Real-World Image Restoration",
+      "item": "http://localhost:1313/papers/paper8/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Proxies for Distortion and Consistency with Applications for Real-World Image Restoration",
+  "name": "Proxies for Distortion and Consistency with Applications for Real-World Image Restoration",
+  "description": "We propose a suite of tools that can serve both the design and assessment of real-world image restoration algorithms.",
+  "keywords": [
+    ""
+  ],
+  "articleBody": " Links Paper Project Page Abstract Real-world image restoration deals with the recovery of images suffering from an unknown degradation. This task is typically addressed while being given only degraded images, without their corresponding ground-truth versions. In this hard setting, designing and evaluating restoration algorithms becomes highly challenging. This paper offers a suite of tools that can serve both the design and assessment of real-world image restoration algorithms. Our work starts by proposing a trained model that predicts the chain of degradations a given real-world measured input has gone through. We show how this estimator can be used to approximate the consistency – the match between the measurements and any proposed recovered image. We also use this estimator as a guiding force for the design of a simple and highly-effective plug-and-play real-world image restoration algorithm, leveraging a pre-trained diffusion-based image prior. Furthermore, this work proposes no-reference proxy measures of MSE and LPIPS, which, without access to the ground-truth images, allow ranking of real-world image restoration algorithms according to their (approximate) MSE and LPIPS. The proposed suite provides a versatile, first of its kind framework for evaluating and comparing blind image restoration algorithms in real-world scenarios.\nWe propose (1) an estimator that predicts the degradations a real-world corrupted measurement has gone through. Using this estimator, we (2) approximate the consistency of any reconstructed candidate with a given input measurement, and use such a measure to develop (3) a plug-and-play real-world restoration algorithm. Moreover, we propose (4) blind (no-reference) measures of distortion that mimic MSE and LPIPS. Citation @article{man2025proxiesdistortionconsistencyapplications, title={Proxies for Distortion and Consistency with Applications for Real-World Image Restoration}, author={Sean Man and Guy Ohayon and Ron Raphaeli and Michael Elad}, year={2025}, journal={arXiv preprint arXiv:2501.12102}, url={https://arxiv.org/abs/2501.12102}, } ",
+  "wordCount" : "284",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/teaser.png","datePublished": "2025-01-21T00:00:00Z",
+  "dateModified": "2025-01-21T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Sean Man"
+  }, {
+    "@type": "Person",
+    "name": "Guy Ohayon"
+  }, {
+    "@type": "Person",
+    "name": "Ron Raphaeli"
+  }, {
+    "@type": "Person",
+    "name": "Michael Elad"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/papers/paper8/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Guy Ohayon",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Guy Ohayon">
+                <img src="http://localhost:1313/favicon3.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Guy Ohayon</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Proxies for Distortion and Consistency with Applications for Real-World Image Restoration
+    </h1>
+    <div class="post-meta"><span title='2025-01-21 00:00:00 +0000 UTC'>January 2025</span>&nbsp;&middot;&nbsp;Sean Man,&thinsp;Guy Ohayon,&thinsp;Ron Raphaeli,&thinsp;Michael Elad&nbsp;&middot;&nbsp;<a href="https://arxiv.org/abs/2501.12102" rel="noopener noreferrer" target="_blank">Preprint</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h5 id="links">Links</h5>
+<ul>
+<li><a href="https://arxiv.org/abs/2501.12102" target="_blank">Paper</a>
+</li>
+<li><a href="https://man-sean.github.io/elad-website/" target="_blank">Project Page</a>
+</li>
+</ul>
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>Real-world image restoration deals with the recovery of images suffering from an unknown degradation. This task is typically addressed while being given only degraded images, without their corresponding ground-truth versions. In this hard setting, designing and evaluating restoration algorithms becomes highly challenging. This paper offers a suite of tools that can serve both the design and assessment of real-world image restoration algorithms. Our work starts by proposing a trained model that predicts the chain of degradations a given real-world measured input has gone through. We show how this estimator can be used to approximate the consistency – the match between the measurements and any proposed recovered image. We also use this estimator as a guiding force for the design of a simple and highly-effective plug-and-play real-world image restoration algorithm, leveraging a pre-trained diffusion-based image prior. Furthermore, this work proposes no-reference proxy measures of MSE and LPIPS, which, without access to the ground-truth images, allow ranking of real-world image restoration algorithms according to their (approximate) MSE and LPIPS. The proposed suite provides a versatile, first of its kind framework for evaluating and comparing blind image restoration algorithms in real-world scenarios.</p>
+<hr>
+<h5 id="we-propose-1-an-estimator-that-predicts-the-degradations-a-real-world-corrupted-measurement-has-gone-through-using-this-estimator-we-2-approximate-the-consistency-of-any-reconstructed-candidate-with-a-given-input-measurement-and-use-such-a-measure-to-develop-3-a-plug-and-play-real-world-restoration-algorithm-moreover-we-propose-4-blind-no-reference-measures-of-distortion-that-mimic-mse-and-lpips">We propose (1) an estimator that predicts the degradations a real-world corrupted measurement has gone through. Using this estimator, we (2) approximate the consistency of any reconstructed candidate with a given input measurement, and use such a measure to develop (3) a plug-and-play real-world restoration algorithm. Moreover, we propose (4) blind (no-reference) measures of distortion that mimic MSE and LPIPS.</h5>
+<p><img loading="lazy" src="teaser.png" alt=""  />
+</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{man2025proxiesdistortionconsistencyapplications,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">title</span>=<span style="color:#a50">{Proxies for Distortion and Consistency with Applications for Real-World Image Restoration}</span>, 
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">author</span>=<span style="color:#a50">{Sean Man and Guy Ohayon and Ron Raphaeli and Michael Elad}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">year</span>=<span style="color:#a50">{2025}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">journal</span>=<span style="color:#a50">{arXiv preprint arXiv:2501.12102}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">url</span>=<span style="color:#a50">{https://arxiv.org/abs/2501.12102}</span>, 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="http://localhost:1313/">Guy Ohayon</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

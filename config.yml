@@ -57,7 +57,7 @@ params:
     profileMode:
           enabled: true
           title: Guy Ohayon
-          subtitle: "I am a PhD candidate in Computer Science at Technion -- Israel Institute of Technology. My research revolves around the fundamental trade-offs and limitations that govern inverse problems in imaging, and developing novel techniques to address them."
+          subtitle: "I am a Computer Science PhD candidate at the Technion, working with Prof. Michael Elad and Prof. Tomer Michaeli. My research is on the theory and practice of image restoration and compression using generative models."
           imageUrl: "profile.jpeg"
           imageWidth: 300
           imageHeight: 300
