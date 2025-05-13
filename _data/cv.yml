@@ -1,0 +1,80 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science
+      institution: Technion - Israel Institute of Technology
+      year: 2021-2025
+      description:
+        - Advised by Prof. <a href='https://elad.cs.technion.ac.il/'>Michael Elad</a> and Prof. <a href='https://tomer.net.technion.ac.il/'>Tomer Michaeli</a>.
+    - title: BSc in Computer Engineering
+      institution: Technion - Israel Institute of Technology
+      year: 2017-2021
+      description:
+        - Graduated Summa Cum Laude (GPA 95.4).
+        - Member of the <a href='https://ece.technion.ac.il/emet-excellence-program/'>EMET Excellence Program</a>.
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Research Scientist Intern
+      institution: Verily Life Sciences
+      year: 05/2024-09/2024
+      description:
+        - Applied research in medical imaging.
+    - title: Research Scientist Intern
+      institution: Microsoft
+      year: 06/2022-09/2023
+      description:
+        - Applied research in computer vision and language models.
+    - title: Computer Vision Research Intern
+      institution: Amazon Web Services
+      year: 08/2021-11/2021
+      description:
+        - Applied research in text image recognition and self-supervised learning.
+    - title: Software Engineering Intern
+      institution: Google
+      year: 05/2020-04/2021
+      description:
+        - Designing a scalable TCP packet loss estimation algorithm based on packet sampling.
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Technion - Israel Institute of Technology
+      year: 2021-2025
+      description:
+        - <a href='https://webcourse.cs.technion.ac.il/02340125/Winter2024-2025/general_info.html'>Numerical Algorithms - 2340125</a> (Winter 2024).
+        - <a href='https://webcourse.cs.technion.ac.il/02360501/Spring2021/general_info.html'>Introduction to Artificial Intelligence - 236501</a> (Spring 2021).
+        - Machine Learning - 046195 (Winter 2021).
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: Vision and AI Seminar
+      institution: Weizmann Institute of Science
+      year: 05/2025
+    - title: Invited Talk
+      institution: Flatiron Institute
+      year: 01/2025
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - <a href="https://cs.technion.ac.il/news/view-new.php?nwid=1486">Technion Artificial Intelligence Hub (Tech AI) Student Research Prize for Cross-PI Collaboration in Data Science in Funding of
+          PBC (VATAT)</a>.
+        - <a href="https://cs.technion.ac.il/news/view-new.php?nwid=1443">Commendation at the Research Day for Graduate Students, Faculty of Computer Science, Technion</a>.
+    - year: 2021
+      items:
+        - <a href="https://data.vision.ee.ethz.ch/cvl/aim21/AIM2021awards_certificates.pdf">Best Student Paper Award, Advances in Image Manipulation (AIM) Workshop, ICCV 2021</a>.
+        - <a href="https://cs.technion.ac.il/news/view-new.php?nwid=1238">Amdocs Best Project Contest Award for Undergraduate Students, Faculty of Computer Science, Technion</a>.
+        - <a href="https://www.cs.technion.ac.il/news/view-new.php?nwid=1272">1st place at the Research Day for Graduate Students, Faculty of Computer Science, Technion</a>.
+    - year: 2021-2025
+      items:
+        - <a href="https://graduate.cs.technion.ac.il/en/graduate-studies/academic-requirements/external-awards-and-scholarships/">Departmental Excellence Scholarship from the Faculty of Computer Science</a>.
+    - year: 2017-2024
+      items:
+        - <a href="https://ugportal.technion.ac.il/en/academic-excellence/">President’s Award for Excellence (x6)</a>.
+        - <a href="https://ugportal.technion.ac.il/en/academic-excellence/">Dean’s Award for Excellence (x6)</a>.
