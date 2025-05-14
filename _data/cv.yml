@@ -36,6 +36,11 @@
       year: 05/2020-04/2021
       description:
         - Designing a scalable TCP packet loss estimation algorithm based on packet sampling.
+    - title: Student Machine Leaning Engineer
+      institution: Intel
+      year: 08/2018-06/2019
+      description:
+        - Using reinforcement learning to compile neural networks on dedicated hardware.
 
 - title: Teaching Experience
   type: time_table

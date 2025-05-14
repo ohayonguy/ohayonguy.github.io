@@ -1,11 +1,11 @@
 ---
 layout: distill
-title: a distill-style blog post
-description: an example of a distill-style blog post and main elements
+title: Simple and Powerful Extensions for Denoising Diffusion Codebook Models
+description: We propose several extensions for our recently proposed Denoising Diffusion Codebook Model (DDCM), which enables faster and better image compression.
 tags: distill formatting
 giscus_comments: true
-date: 2021-05-22
-featured: true
+date: 2025-05-13
+featured: false
 mermaid:
   enabled: true
   zoomable: true
@@ -19,20 +19,20 @@ tikzjax: true
 typograms: true
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Guy Ohayon
+    url: "https://ohayonguy.github.io/"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+      name: Technion, Faculty of Computer Science
+  - name: Michael Elad
+    url: "https://elad.cs.technion.ac.il/"
     affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+      name: Technion, Faculty of Computer Science
+  - name: Tomer Michaeli
+    url: "https://tomer.net.technion.ac.il/"
     affiliations:
-      name: IAS, Princeton
+      name: Technion, Faculty of Electrical and Computer Engineering
 
-bibliography: 2018-12-22-distill.bib
+bibliography: ddcm-extensions-bib.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -41,13 +41,13 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Equations
+  - name: Introduction
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Citations
-  - name: Footnotes
+  - name: Extensions
+  - name: Results
   - name: Code Blocks
   - name: Interactive Plots
   - name: Mermaid
@@ -78,22 +78,18 @@ _styles: >
   }
 ---
 
-## Equations
+## Introduction
 
-This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
+Denoising Diffusion Codebook Model (DDCM)<d-cite key="ohayon2025compressed"></d-cite> is our recently proposed generative sampling procedure for pre-trained diffusion models, which draws the noise samples from a sequence of pre-defined Gaussian \emph{codebooks} instead of the standard Gaussian distribution.
+This simple modification enables a straightforward and surprisingly effective \emph{zero-shot} perceptual image compression technique, where the codebook atoms at each time-step are selected to best match the current residual fidelity to the target image.
+However, while this method enables a highly efficient bitstream transmission protocol, it performs well only when a large number of denoising operations are used - resulting in slow inference and high computational costs.
+In this work, we propose a novel extension of this approach tailored to pre-trained Flow Matching (FM) models such as Stable Diffusion 3 and FLUX, achieving state-of-the-art perceptual image compression results using only 15 NFEs.
+We first show that using large \emph{orthonormal} codebooks can significantly reduce the number of required denoising steps, by selecting an optimal linear combination of a prespecified number of codebook elements that minimizes the squared error with the residual.
+Importantly, we find that the resulting coefficients in the combination are typically relatively small, allowing for efficient quantization.
+We further enhance the results by adapting the codebooks for each image, by dynamically orthogonalizing the codebooks with respect to the previously selected noise directions.
+Lastly, we combine the above with an effective scheduling strategy for pre-trained FM models, that blends the combined codebook noises with the current vector field prediction, yielding stronger results with even fewer NFEs.
+Our proposed extensions not only drastically lower the computational cost of DDCM-based compression but also outperforms both DDCM and other state-of-the-art neural compression schemes.
 
-In fact, you can also use a single dollar sign `$` to create inline formulas, such as `$ E = mc^2 $`, which will render as $ E = mc^2 $. This approach provides the same effect during TeX-based compilation, but visually it appears slightly less bold compared to double-dollar signs `$$`, making it blend more naturally with surrounding text.
-
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
-Here is an example:
-
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
-
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
 
 ---
 
