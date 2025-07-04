@@ -26,4 +26,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a Computer Science PhD candidate at the <a href="https://www.technion.ac.il/">Technion</a>, advised by Prof. <a href="https://elad.cs.technion.ac.il/">Michael Elad</a> and Prof. <a href="https://tomer.net.technion.ac.il/">Tomer Michaeli</a>. My PhD research focuses on the theory and practice of image restoration and compression using generative models.
+I am currently a postdoctoral fellow working with Prof. <a href="https://www.simonsfoundation.org//">Eero Simoncelli</a> at the <a href="https://www.simonsfoundation.org/flatiron/">Flatiron Institute</a>. My research interests include visual representation learning, inverse problems, information theory, and generative modeling.
+
+Previously, I completed my Ph.D. in Computer Science at the <a href="https://www.technion.ac.il/">Technion - Israel Institute of Technology</a>, where I worked with Prof. <a href="https://elad.cs.technion.ac.il/">Michael Elad</a> and Prof. <a href="https://tomer.net.technion.ac.il/">Tomer Michaeli</a>. My doctoral research focused on the theoretical and practical aspects of image restoration and compression techniques that rely on generative models.
