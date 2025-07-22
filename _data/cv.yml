@@ -16,6 +16,9 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Postdoctoral Research Fellow
+      institution: Center for Computational Neuroscience, Flatiron Institute, Simons Foundation
+      year: 06/2025-Present
     - title: Research Scientist Intern
       institution: Verily Life Sciences
       year: 05/2024-09/2024
@@ -66,6 +69,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - <a href="https://viterbi.net.technion.ac.il/">Viterbi Postdoctoral Fellowship for Nurturing Future Faculty Members</a>.
     - year: 2024
       items:
         - <a href="https://cs.technion.ac.il/news/view-new.php?nwid=1486">Technion Artificial Intelligence Hub (Tech AI) Student Research Prize for Cross-PI Collaboration in Data Science in Funding of
