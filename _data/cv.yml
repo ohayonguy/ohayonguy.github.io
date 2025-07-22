@@ -66,6 +66,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - <a href="https://viterbi.net.technion.ac.il/">Viterbi Postdoctoral Fellowship for Nurturing Future Faculty Members</a>.
     - year: 2024
       items:
         - <a href="https://cs.technion.ac.il/news/view-new.php?nwid=1486">Technion Artificial Intelligence Hub (Tech AI) Student Research Prize for Cross-PI Collaboration in Data Science in Funding of
